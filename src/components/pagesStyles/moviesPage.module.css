@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.input {
+  width: 200px;
+  height: 43px;
+  margin-right: 20px;
+  font-size: 17px;
+  border-radius: 8px;
+
+  outline: none;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+  padding-left: 10px;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button:hover,
+.input:hover {
+  border-color: #646cff;
+}
+.spiner {
+  display: flex;
+  justify-content: center;
+}

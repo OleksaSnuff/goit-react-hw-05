@@ -1,0 +1,20 @@
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.castItem {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+.castPhoto {
+  width: 150px;
+}

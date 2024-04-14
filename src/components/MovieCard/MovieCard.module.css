@@ -1,0 +1,7 @@
+.movieLink {
+  transition: color 0.25s;
+}
+
+.movieLink:hover {
+  color: rgb(255, 115, 0);
+}

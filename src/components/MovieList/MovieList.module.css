@@ -1,0 +1,9 @@
+.movieList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 0 110px;
+  justify-content: center;
+  align-items: center;
+}
